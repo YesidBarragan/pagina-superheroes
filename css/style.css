@@ -42,7 +42,7 @@ h2 {
 }
 
 .batman .bg-batman{
-    background-image: url(/img/bg-batman.jpg);
+    background-image: url(../img/bg-batman.jpg);
     background-size: 580px;
     background-position: right 30% bottom 50%;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .wonderwoman .bg-wonderwoman{
-    background-image: url(/img/bg-wonderw.jpg);
+    background-image: url(../img/bg-wonderw.jpg);
     background-size: 580px;
     background-position: right 30% bottom 50%;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ h2 {
 }
 
 .superman .bg-superman{
-    background-image: url(/img/bg-superman.jpg);
+    background-image: url(../img/bg-superman.jpg);
     background-size: 580px;
     background-position: right 30% bottom 50%;
     background-repeat: no-repeat;
