@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*HEADER*/
+header p{
+    background: #1CD1B0;
+    margin: 0;
+    padding: 2px 30px;
+}
+
+header h1{
+    background: #00669F;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    padding: 15px 30px 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*CONTENT*/
+.batman, .wonderwoman, .superman{
+    background: #F3F3F3;
+    border-radius: 30px 30px 0 0;
+    width: 350px;
+    height: 600px;
+    margin: 20px auto 80px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.batman .bg-batman{
+    background-image: url(/img/bg-batman.jpg);
+    background-size: 580px;
+    background-position: right 30% bottom 50%;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    height: 200px;
+}
+
+.imagen-batman, .imagen-wonderwoman, .imagen-superman{
+    display: inline-block;
+    bottom: 80px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.batman .foto-batman{
+    width: auto;
+    height: 100%;
+    margin-left: -90px;
+}
+
+.batman p, .wonderwoman p, .superman p{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.contenido-batman, .contenido-wonderwoman, .contenido-superman{
+    position: relative;
+    bottom: 90px;
+}
+
+.contenido-batman button, .contenido-wonderwoman button, .contenido-superman button{
+    color: white;
+    background: #00669F;
+    padding: 15px 40px 16px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.wonderwoman .bg-wonderwoman{
+    background-image: url(/img/bg-wonderw.jpg);
+    background-size: 580px;
+    background-position: right 30% bottom 50%;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    height: 200px;
+}
+
+.wonderwoman .foto-wonderwoman{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+.superman .bg-superman{
+    background-image: url(/img/bg-superman.jpg);
+    background-size: 580px;
+    background-position: right 30% bottom 50%;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    height: 200px;
+}
+
+.superman .foto-superman{
+    width: auto;
+    height: 100%;
+    margin-left: -30px;
+}
+
+.corazon-like{
+    position: absolute;
+    height: 35px;
+    top: 15px;
+    left: 25px;
+}
+
+.boton-flotante{
+    margin-left: auto;
+    width:50px;
+    height:50px;
+    background:
+    linear-gradient(#fff,#fff),
+    linear-gradient(#fff,#fff),
+    #00669F;
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+    border-radius:50%;
+    position: sticky;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+/*FOOTER*/
+footer p{
+    margin-top: 20px;
+    background:#00669F;
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+footer img{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    height: 30px;
+}
