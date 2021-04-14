@@ -130,7 +130,7 @@ h2 {
     linear-gradient(#fff,#fff),
     #00669F;
     background-position:center;
-    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-size: 50% 2px,2px 50%;
     background-repeat:no-repeat;
     border-radius:50%;
     position: sticky;
